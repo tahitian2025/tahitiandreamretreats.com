@@ -1,126 +1,20 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tahitian Dream Retreats — Private Villas & Island-Inspired Stays</title>
-  <meta name="description" content="Island-inspired retreats with curated experiences, private chef options, and five-star service. Inquire for dates and rates." />
-  <link rel="canonical" href="https://tahitiandreamretreats.com/" />
-  <meta property="og:title" content="Tahitian Dream Retreats" />
-  <meta property="og:description" content="Private villas & island-inspired stays with curated experiences." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tahitiandreamretreats.com/" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white text-slate-800">
-  <!-- Header -->
-  <header class="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
-    <a href="/" class="text-2xl font-extrabold tracking-tight">Tahitian Dream Retreats</a>
-    <nav class="flex items-center gap-4 text-sm">
-      <a href="#stays" class="hover:underline">Stays</a>
-      <a href="#experiences" class="hover:underline">Experiences</a>
-      <a href="#inquiry" class="px-4 py-2 rounded-xl border">Check Dates</a>
-    </nav>
-  </header>
-
-  <!-- Hero -->
-  <section class="relative overflow-hidden bg-gradient-to-br from-cyan-100 to-emerald-100">
-    <div class="max-w-6xl mx-auto px-4 py-20">
-      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
-        Private Villas. Island Vibes. <span class="block">Five-Star, Concierge-Level Stays.</span>
-      </h1>
-      <p class="mt-4 max-w-2xl text-lg">
-        Hand-picked retreats with curated experiences—private chef, spa services, and bespoke excursions.
-      </p>
-      <div class="mt-8 flex gap-3">
-        <a href="#inquiry" class="px-6 py-3 rounded-xl bg-black text-white">Inquire for Dates</a>
-        <a href="#stays" class="px-6 py-3 rounded-xl border">View Stays</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Stays -->
-  <section id="stays" class="max-w-6xl mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold mb-6">Featured Stays</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <article class="rounded-2xl border overflow-hidden">
-        <div class="aspect-[4/3] bg-slate-100"></div>
-        <div class="p-5">
-          <h3 class="text-xl font-semibold">Villa Moana</h3>
-          <p class="text-slate-600 text-sm mt-1">3 BR • Ocean-inspired design • Private plunge</p>
-        </div>
-      </article>
-      <article class="rounded-2xl border overflow-hidden">
-        <div class="aspect-[4/3] bg-slate-100"></div>
-        <div class="p-5">
-          <h3 class="text-xl font-semibold">Villa Te Fiti</h3>
-          <p class="text-slate-600 text-sm mt-1">4 BR • Lush garden courtyard • Chef’s kitchen</p>
-        </div>
-      </article>
-      <article class="rounded-2xl border overflow-hidden">
-        <div class="aspect-[4/3] bg-slate-100"></div>
-        <div class="p-5">
-          <h3 class="text-xl font-semibold">Bungalow Tiare</h3>
-          <p class="text-slate-600 text-sm mt-1">1 BR • Romantic hideaway • Spa bathroom</p>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- Experiences -->
-  <section id="experiences" class="max-w-6xl mx-auto px-4 pb-16">
-    <h2 class="text-3xl font-bold mb-6">Curated Experiences</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="rounded-2xl border p-6">
-        <h3 class="text-xl font-semibold mb-2">Private Chef</h3>
-        <p class="text-slate-600">Island-fresh menus prepared in-villa. Dietary preferences welcome.</p>
-      </div>
-      <div class="rounded-2xl border p-6">
-        <h3 class="text-xl font-semibold mb-2">Spa & Wellness</h3>
-        <p class="text-slate-600">On-site massage, guided breathwork, sunrise yoga sessions.</p>
-      </div>
-      <div class="rounded-2xl border p-6">
-        <h3 class="text-xl font-semibold mb-2">Excursions</h3>
-        <p class="text-slate-600">Snorkel reefs, sunset cruises, cultural tours, and more.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Inquiry -->
-  <section id="inquiry" class="max-w-3xl mx-auto px-4 pb-20">
-    <h2 class="text-3xl font-bold mb-4">Check Availability</h2>
-    <p class="mb-6 text-slate-600">Tell us your dates and preferences—our concierge will reply promptly.</p>
-
-    <!-- Replace YOUR_FORM_ID at formspree.io -->
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
-      <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" />
-      <div class="grid md:grid-cols-2 gap-4">
-        <input class="w-full rounded-xl border p-3" type="text" name="name" placeholder="Your name" required />
-        <input class="w-full rounded-xl border p-3" type="email" name="email" placeholder="Email" required />
-      </div>
-      <div class="grid md:grid-cols-2 gap-4">
-        <input class="w-full rounded-xl border p-3" type="text" name="dates" placeholder="Desired dates" />
-        <input class="w-full rounded-xl border p-3" type="text" name="guests" placeholder="Guests" />
-      </div>
-      <textarea class="w-full rounded-xl border p-3 h-36" name="message" placeholder="Which villa or experience interests you?"></textarea>
-      <input type="hidden" name="_subject" value="New Inquiry — Tahitian Dream Retreats" />
-      <input type="hidden" name="_redirect" value="https://tahitiandreamretreats.com/#thank-you" />
-      <button class="px-6 py-3 rounded-xl bg-black text-white" type="submit">Send Inquiry</button>
-    </form>
-
-    <div id="thank-you" class="mt-8 hidden">
-      <div class="rounded-xl border p-4">
-        <p>Thanks! Your message has been sent.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="border-t">
-    <div class="max-w-6xl mx-auto px-4 py-10 text-sm text-slate-600">
-      © <span id="y"></span> Tahitian Dream Retreats — All rights reserved.
-    </div>
-  </footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Tahitian Dream Retreats - Luxury Pools & Beyond | Houston, TX</title>
+    <meta name="description" content="Transform your backyard into a luxury oasis with Tahitian Dream Retreats. Premium pool design, construction, and remodeling services in Houston, TX. Get your free quote today!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-CxrrWZul.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CIV9ze2v.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
 </html>
